@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LineLeap</title>
+    <link rel="shortcut icon" href="/imgs/principal/logo.ico">
+    <link rel="stylesheet" href="/css/principal.css">
+    <script src="/scripts/menuS.js"></script>
+    <script src="/scripts/seleciona.js"></script>
+    <script src="scripts/2 fila js/main.js" type="module"></script>
+    <link rel="stylesheet" href="scripts/2 fila js/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>
+                    LineLeap
+                </h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="line-lipe.html" class="nav-link">Sobre o LineLeap</a></li>
+                    <li class="nav-item"><a href="quem-somos.html" class="nav-link">Sobre nós</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <img class="icon" src="/imgs/principal/menu_white_36dp.svg">
+                </button>
+            </div>
+
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="quem-somos.html" class="nav-link">Sobre nós</a></li>
+                <li class="nav-item"><a href="line-lipe.html" class="nav-link">Sobre o LineLeap</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="bloco1-container">
+        <div class="bloco1-title">
+            <h4>
+                SELECIONAR ALGORITMO
+            </h4>
+        </div>
+
+        <div class="bloco1-select">
+            <button id="btn-round-robin" class="botao">RR & RR</button>
+            <button id="btn-fifo" class="botao">FIFO & FIFO</button>
+            <button id="btn-fifo-rr" class="botao">RR & FIFO</button>
+            <button id="btn-1fifo-2rr" class="botao">2 RR & 1 FIFO</button>
+            <button id="btn-2fifo-1rr" class="botao">1 RR & 2 FIFO</button>
+        </div>
+    </div> 
+    
+    <div class="bloco2-container">
+        <div>
+            <h1>Execução de Processos</h1>
+            <div class="processos-container">
+               <div class="processos">
+                 <h2>Processos em Execução :</h2>
+                 <div id="processos"></div>
+               </div>
+           
+           
+               <div class="processos-finalizados">
+                 <h2>Processos Finalizados :</h2>
+                 <div id="processos-finalizados"></div>
+               </div>
+             </div>
+        </div>
+    </div>
+    
+    <div class="bloco3-container">
+        <h4>
+            TABELA DE RESULTADOS
+        </h4>
+        <table id="tabela-processos" >
+            <thead>
+                <tr>
+                    <th>PID</th>
+                    <th>T. DE CHEGADA</th>
+                    <th>T. DE EXECUÇÃO</th>
+                    <th>PRIORIDADE </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                                      
+                </tr>
+                <tr>
+                                     
+                </tr>
+                <tr>
+                                  
+                </tr>
+                <tr>
+                                    
+                </tr>
+                <tr>                 
+                    
+                </tr>
+                <tr>
+                               
+                </tr>
+                <tr>
+                               
+                </tr>
+                <tr>          
+                    
+                </tr>
+                <tr>  
+                    
+                </tr>
+                <tr>
+                               
+                </tr>
+                <tr>      
+                   
+                </tr>
+                <tr>     
+                    
+                </tr>
+                <tr>
+                  
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 LineLeap. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+
+</html>
